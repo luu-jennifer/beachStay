@@ -320,7 +320,22 @@ a {
   transition: 0.3s;
 }
 
-nav a {
+.logo {
+  font-family: "PlayfairDisplaySC", "sans-serif";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.73rem;
+  text-align: center;
+  color: #50E3C2;
+}
+
+.wrapper {
+  max-width: 2432px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
   font-family: "Lato", "sans-serif";
   font-weight: bold;
   font-size: 1rem;
@@ -330,19 +345,63 @@ nav a {
   color: #FAFFFE;
   text-transform: uppercase;
 }
-nav a:hover {
+a:hover {
   color: #50E3C2;
 }
 
-nav li.logo a {
+.button {
   font-family: "PlayfairDisplaySC", "sans-serif";
   font-weight: 900;
   font-style: italic;
-  font-size: 1.73rem;
+  font-size: 1rem;
   text-align: center;
-  color: #50E3C2;
+  line-height: 1.6rem;
+  letter-spacing: 0.05rem;
+  background-color: #063974;
+  color: #FAFFFE;
+  border: 2px solid #063974;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #50E3C2;
+  color: #063974;
+}
+.button:focus {
+  background-color: #50E3C2;
+  color: #063974;
+}
+
+.navBar {
+  width: 100vw;
+}
+.navBar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.navBar .wrapper .mainMenu {
+  display: flex;
+  justify-content: flex-start;
+}
+.navBar .wrapper .mainMenu li {
+  padding: 0 10px;
 }
 
 header {
-  background-image: url("../../assets/home-image-1.jpg");
+  background: url("../../assets/home-image-1.jpg") top center/100vw fixed border-box no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerImgContainer img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #2C2C2C;
+  color: #FAFFFE;
+  text-align: center;
+  padding: 1px;
 }

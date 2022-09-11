@@ -1,5 +1,18 @@
 @use "./variables" as *;
 
 header {
-  background-image: url("../../assets/home-image-1.jpg");
+  background: 
+    url("../../assets/home-image-1.jpg") 
+    top center / 100vw
+    fixed
+    border-box
+    no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerImgContainer {
+  img {
+      max-width: 100%;
+    }
 }

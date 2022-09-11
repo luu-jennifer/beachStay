@@ -1,5 +1,13 @@
 @use "./partials/variables" as *;
 @use "./partials/setup";
 @use "./partials/typography";
+@use "./partials/baseStyles";
 @use "./partials/nav";
 @use "./partials/header";
+@use "./partials/footer";
+
+
+// form placeholder (name. email...) Lato,
+// Light,
+// 20px Line height: 32px,
+// Letter spacing: 2px
