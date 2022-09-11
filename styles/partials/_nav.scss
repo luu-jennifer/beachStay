@@ -1,0 +1,30 @@
+@use "./variables" as *;
+
+// Navigation Lato,
+// Bold,
+// 20px Center,
+// Line height: 29px,
+// Letter spacing: 1px
+
+nav a {
+  font-family: $fontLato;
+  font-weight: bold;
+  font-size: $baseFontSize;
+  text-align: center;
+  line-height: 1.45rem;
+  letter-spacing: 0.05rem;
+  color: $secondary;
+  text-transform: uppercase;
+  &:hover {
+    color: $primary;
+  }
+}
+
+nav li.logo a {
+  font-family: $fontPlayfair;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.73rem;
+  text-align: center;
+  color: $primary;
+}

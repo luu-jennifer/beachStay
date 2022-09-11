@@ -1,0 +1,120 @@
+// import variables
+@use "./variables" as *;
+
+
+// import fonts
+//  import PlayfairDisplaySC, Black Italic font
+@font-face {
+  font-family: "PlayfairDisplaySC";
+  src: url('../../fonts/playfairDisplaySC/PlayfairDisplaySC-BlackItalic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+// import Lato, Regular font
+@font-face {
+  font-family: "Lato";
+  src: url('../../fonts/lato/Lato-Regular.ttf');
+}
+
+// import Lato, Bold font
+@font-face {
+  font-family: "Lato";
+  src: url('../../fonts/lato/Lato-Bold.ttf');
+  font-weight: bold;
+}
+
+// import Lato, Light font
+@font-face {
+  font-family: "Lato";
+  src: url('../../fonts/lato/Lato-Light.ttf');
+  font-weight: 300;
+}
+
+// Text style catalog
+
+html {
+  // set font size to 20px = 1rem
+  font-size: 125%;
+}
+
+body {
+  font-family: $fontLato;
+  font-size: $baseFontSize;
+  // font-size: calc(1 * $baseFontSize); using calc and quick change to variables
+  color: $black;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+// heading family
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fontLato;
+  font-weight: bold;
+  line-height: 2.9rem;
+}
+// heading color
+h3,
+h4,
+h6 {
+  color: $quinary;
+}
+
+h1 {
+  font-family: $fontPlayfair;
+  font-size: 5.56rem;
+  font-weight: 900;
+  font-style: italic;
+  color: $tertiary;
+}
+
+h2 {
+  font-size: 4.35rem;
+  letter-spacing: 0.45rem;
+
+}
+
+h3 {
+  font-size: 3.1rem;
+  letter-spacing: 0.335rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+  letter-spacing: 0.19rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+  letter-spacing: 0.19rem;
+  color: $tertiary;
+}
+
+h6 {
+  font-size: 1.5rem;
+  letter-spacing: 0.16rem;
+}
+
+ul,
+li,
+a,
+input {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
