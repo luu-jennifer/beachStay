@@ -482,6 +482,10 @@ header .flexContainer {
   padding: 0 6% 0 11%;
 }
 
+.blog i {
+  margin-right: 1.5%;
+}
+
 .plan {
   background-color: #D2F9F1;
 }
@@ -500,23 +504,29 @@ header .flexContainer {
   margin-bottom: 10%;
 }
 .plan .flexContainer .contentContainer.right {
-  padding: 3% 5% 5% 9%;
+  padding: 3% 0% 5% 12%;
   text-align: left;
 }
 .plan .flexContainer .contentContainer.left {
-  padding: 3% 9% 5% 5%;
+  padding: 3% 12% 5% 0%;
   text-align: right;
 }
-.plan .flexContainer .imgContainer {
-  max-width: 100%;
+
+.plan .imgContainer {
+  position: relative;
+  max-width: 100vw;
 }
-.plan .flexContainer .leftImg {
+.plan .imgContainer .leftImg {
   box-shadow: 15px 15px #50E3C2;
   width: 100%;
+  position: absolute;
+  margin: -8% 0 0 -25%;
 }
-.plan .flexContainer .rightImg {
+.plan .imgContainer .rightImg {
   box-shadow: -15px 15px #50E3C2;
   width: 100%;
+  margin: 10% 0 0 25%;
+  position: absolute;
 }
 
 .contest {
@@ -530,7 +540,8 @@ header .flexContainer {
   max-width: 100vw;
 }
 .contest .flexContainer .imgContainer img {
-  width: 100%;
+  width: 132.5%;
+  margin: 0 -20%;
 }
 .contest .flexContainer .contentContainer {
   margin: 0 auto;
