@@ -1,18 +1,33 @@
 @use "./variables" as *;
 
 header {
+  // height: 75vh;
   background: 
     url("../../assets/home-image-1.jpg") 
     top center / 100vw
-    fixed
-    border-box
+    // fixed
+    // border-box
     no-repeat;
+  }
+  
+  .flexContainer {
     display: flex;
-    flex-wrap: wrap;
+  }
+
+  .headerImgContainer {
+  width: 43%;
+  position: relative;
+  img {
+    max-width: 100%;
+  }
 }
 
-.headerImgContainer {
-  img {
-      max-width: 100%;
-    }
+.headerContent {
+  position: absolute;
+  margin: 4% 0% 0% 34.15%;
+  max-width: 60vw;
+  border: 1px solid black;
+  h1 {
+    margin: -3.5% 0 0 -1.5%;
+  }
 }

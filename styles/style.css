@@ -330,7 +330,7 @@ a {
 }
 
 .wrapper {
-  max-width: 2432px;
+  max-width: 1728px;
   width: 90%;
   margin: 0 auto;
 }
@@ -379,7 +379,7 @@ a:hover {
 .navBar .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 2% 4% 12% 5%;
 }
 .navBar .wrapper .mainMenu {
   display: flex;
@@ -390,13 +390,29 @@ a:hover {
 }
 
 header {
-  background: url("../../assets/home-image-1.jpg") top center/100vw fixed border-box no-repeat;
-  display: flex;
-  flex-wrap: wrap;
+  background: url("../../assets/home-image-1.jpg") top center/100vw no-repeat;
 }
 
+.flexContainer {
+  display: flex;
+}
+
+.headerImgContainer {
+  width: 43%;
+  position: relative;
+}
 .headerImgContainer img {
   max-width: 100%;
+}
+
+.headerContent {
+  position: absolute;
+  margin: 4% 0% 0% 34.15%;
+  max-width: 60vw;
+  border: 1px solid black;
+}
+.headerContent h1 {
+  margin: -3.5% 0 0 -1.5%;
 }
 
 footer {
