@@ -313,6 +313,13 @@ ul {
   list-style: none;
 }
 
+p {
+  font-family: "Lato", "sans-serif";
+  font-size: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -331,7 +338,7 @@ a {
 
 .wrapper {
   max-width: 1728px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -379,7 +386,7 @@ a:hover {
 .navBar .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 2% 4% 12% 5%;
+  padding: 2% 0% 12% 0%;
 }
 .navBar .wrapper .mainMenu {
   display: flex;
@@ -391,9 +398,9 @@ a:hover {
 
 header {
   background: url("../../assets/home-image-1.jpg") top center/100vw no-repeat;
+  background-color: #FAFFFE;
 }
-
-.flexContainer {
+header .flexContainer {
   display: flex;
 }
 
@@ -409,15 +416,135 @@ header {
   position: absolute;
   margin: 4% 0% 0% 34.15%;
   max-width: 60vw;
-  border: 1px solid black;
 }
 .headerContent h1 {
   margin: -3.5% 0 0 -1.5%;
+}
+
+.guyana {
+  background-color: #FAFFFE;
+  padding-bottom: 5%;
+}
+.guyana .flexContainer {
+  display: flex;
+}
+.guyana .flexContainer .contentContainer {
+  width: 60vw;
+}
+.guyana .flexContainer .contentContainer p {
+  margin-bottom: 5%;
+}
+.guyana .flexContainer .imgContainer {
+  margin: 4% 0 0 8%;
+  max-width: 100vw;
+}
+.guyana .flexContainer img {
+  width: 100%;
+  box-shadow: -15px 15px #50E3C2;
+}
+
+.gallery {
+  background-color: #D2F9F1;
+}
+.gallery .beachstayGallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 0;
+  max-width: 100vw;
+}
+.gallery .beachstayGallery img {
+  width: 100%;
+}
+
+.iconsDetails {
+  background-color: #FAFFFE;
+  padding-bottom: 8%;
+}
+.iconsDetails .flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.iconsDetails .flexContainer div {
+  width: 50%;
+}
+.iconsDetails .flexContainer div h6 {
+  margin: 45px 0 0 0;
+}
+.iconsDetails .flexContainer div i {
+  text-align: center;
+  padding: 2%;
+  color: #FAFFFE;
+  background-color: #50E3C2;
+  border-radius: 50%;
+}
+.iconsDetails .flexContainer div p {
+  padding: 0 6% 0 11%;
+}
+
+.plan {
+  background-color: #D2F9F1;
+}
+.plan .flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plan .flexContainer div {
+  width: 50%;
+}
+.plan .flexContainer h5 {
+  margin: 46px 0 0 0;
+}
+.plan .flexContainer p {
+  margin-bottom: 10%;
+}
+.plan .flexContainer .contentContainer.right {
+  padding: 3% 5% 5% 9%;
+  text-align: left;
+}
+.plan .flexContainer .contentContainer.left {
+  padding: 3% 9% 5% 5%;
+  text-align: right;
+}
+.plan .flexContainer .imgContainer {
+  max-width: 100%;
+}
+.plan .flexContainer .leftImg {
+  box-shadow: 15px 15px #50E3C2;
+  width: 100%;
+}
+.plan .flexContainer .rightImg {
+  box-shadow: -15px 15px #50E3C2;
+  width: 100%;
+}
+
+.contest {
+  background-color: #FAFFFE;
+}
+.contest .flexContainer {
+  display: flex;
+  flex-direction: column;
+}
+.contest .flexContainer .imgContainer {
+  max-width: 100vw;
+}
+.contest .flexContainer .imgContainer img {
+  width: 100%;
+}
+.contest .flexContainer .contentContainer {
+  margin: 0 auto;
+  padding: 2% 0 8% 0;
+  text-align: center;
+  width: 75%;
+}
+.contest .flexContainer .contentContainer p {
+  margin-bottom: 5%;
 }
 
 footer {
   background-color: #2C2C2C;
   color: #FAFFFE;
   text-align: center;
-  padding: 1px;
+  border: 1px solid #2C2C2C;
 }

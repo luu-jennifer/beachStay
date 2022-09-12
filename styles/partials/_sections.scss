@@ -1,1 +1,137 @@
 @use "./variables" as *;
+
+// .guyana section styles
+.guyana {
+  background-color: $secondary;
+  padding-bottom: 5%;
+  .flexContainer {
+    display: flex;
+    .contentContainer {
+      width: 60vw;
+      p {
+        margin-bottom: 5%;
+      }
+    }
+    .imgContainer {
+      margin: 4% 0 0 8%;
+      max-width: 100vw;
+    }
+    img {
+      width: 100%;
+      box-shadow: -15px 15px $primary;
+    }
+  }
+}
+
+// .gallery section styles
+.gallery {
+  background-color: $quaternary;
+  .beachstayGallery {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+    max-width: 100vw;
+    img {
+      width: 100%;
+    }
+  }  
+}
+
+// .iconDetails section styles
+.iconsDetails {
+  background-color: $secondary;
+  padding-bottom: 8%;
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+      width: 50%;
+      h6 {
+        margin: 45px 0 0 0;
+      }
+      i {
+        text-align: center;
+        padding: 2%;
+        color: $secondary;
+        background-color: $primary;
+        border-radius: 50%;
+      }
+      p {
+        padding: 0 6% 0 11%;
+      }
+    }
+  }
+}
+
+// .plan section styles
+.plan {
+  background-color: $quaternary;
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+      width: 50%;
+    }
+    h5 {
+      margin: 46px 0 0 0;
+    }
+    p {
+      margin-bottom: 10%;
+    }
+    .contentContainer.right {
+      padding: 3% 5% 5% 9%;
+      text-align: left;
+    }
+
+    .contentContainer.left {
+      padding: 3% 9% 5% 5%;
+      text-align: right;
+    }
+
+    .imgContainer {
+      max-width: 100%;
+    }
+
+    .leftImg {
+      box-shadow: 15px 15px $primary;
+      width: 100%;
+    }
+
+    .rightImg {
+      box-shadow: -15px 15px $primary;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+//.contest section styles
+.contest {
+  background-color: $secondary;
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    .imgContainer {
+      max-width: 100vw;
+      img {
+        width: 100%;
+      }
+    }
+    .contentContainer {
+      margin: 0 auto;
+      padding: 2% 0 8% 0;
+      text-align: center;
+      width: 75%;
+      p {
+        margin-bottom: 5%;
+      }
+    }
+  }
+}
+

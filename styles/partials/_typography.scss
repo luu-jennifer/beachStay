@@ -110,6 +110,13 @@ ul {
   list-style: none;
 }
 
+p {
+    font-family: $fontLato;
+    font-size: $baseFontSize;
+    line-height: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
