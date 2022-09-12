@@ -6,7 +6,7 @@
 //  import PlayfairDisplaySC, Black Italic font
 @font-face {
   font-family: "PlayfairDisplaySC";
-  src: url('$fontPATH/playfairDisplaySC/PlayfairDisplaySC-BlackItalic.ttf');
+  src: url('../../fonts/playfairDisplaySC/PlayfairDisplaySC-BlackItalic.ttf');
   font-weight: 900;
   font-style: italic;
 }
@@ -14,20 +14,20 @@
 // import Lato, Regular font
 @font-face {
   font-family: "Lato";
-  src: url('$fontPATH/lato/Lato-Regular.ttf');
+  src: url('../../fonts/lato/Lato-Regular.ttf');
 }
 
 // import Lato, Bold font
 @font-face {
   font-family: "Lato";
-  src: url('$fontPATH/lato/Lato-Bold.ttf');
+  src: url('../../fonts/lato/Lato-Bold.ttf');
   font-weight: bold;
 }
 
 // import Lato, Light font
 @font-face {
   font-family: "Lato";
-  src: url('$fontPATH/lato/Lato-Light.ttf');
+  src: url('../../fonts/lato/Lato-Light.ttf');
   font-weight: 300;
 }
 
