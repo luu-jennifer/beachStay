@@ -221,22 +221,22 @@ template {
 
 @font-face {
   font-family: "PlayfairDisplaySC";
-  src: url("../../fonts/playfairDisplaySC/PlayfairDisplaySC-BlackItalic.ttf");
+  src: url("../fonts/playfairDisplaySC/PlayfairDisplaySC-BlackItalic.ttf");
   font-weight: 900;
   font-style: italic;
 }
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/lato/Lato-Regular.ttf");
+  src: url("../fonts/lato/Lato-Regular.ttf");
 }
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/lato/Lato-Bold.ttf");
+  src: url("../fonts/lato/Lato-Bold.ttf");
   font-weight: bold;
 }
 @font-face {
   font-family: "Lato";
-  src: url("../../fonts/lato/Lato-Light.ttf");
+  src: url("../fonts/lato/Lato-Light.ttf");
   font-weight: 300;
 }
 html {
@@ -397,7 +397,7 @@ a:hover {
 }
 
 header {
-  background: url("../../assets/home-image-1.jpg") top center/100vw no-repeat;
+  background: url("../assets/home-image-1.jpg") top center/100vw no-repeat;
   background-color: #FAFFFE;
 }
 header .flexContainer {
