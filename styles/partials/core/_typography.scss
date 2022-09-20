@@ -1,6 +1,5 @@
 // import variables
-@use "./variables" as *;
-
+@use "../utilities/variables" as *;
 
 // import fonts
 //  import PlayfairDisplaySC, Black Italic font
@@ -74,6 +73,7 @@ h1 {
 h2 {
   font-size: 4.35rem;
   letter-spacing: 0.45rem;
+  color: $secondary;
 
 }
 

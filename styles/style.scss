@@ -1,11 +1,12 @@
-@use "./partials/variables" as *;
-@use "./partials/setup";
-@use "./partials/typography";
-@use "./partials/baseStyles";
-@use "./partials/nav";
-@use "./partials/header";
-@use "./partials/sections";
-@use "./partials/footer";
+@use "./partials/utilities/variables" as *;
+@use "./partials/core/setup";
+@use "./partials/core/typography";
+@use "./partials/core/baseStyles";
+@use "./partials/layout/nav";
+@use "./partials/layout/header";
+@use "./partials/pages/home";
+@use "./partials/layout/footer";
+@use "./partials/utilities/mediaQueries";
 
 //TODO: in typography
 // form placeholder (name. email...) Lato,
