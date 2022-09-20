@@ -16,23 +16,26 @@
 
   <header>
     <!-- HEADER start -->
-    <nav class="navBar">
-      <!-- NAV start -->
-      <div class="wrapper">
-        <!-- nav .wrapper starts -->
-        <a href="./index.html" class="logo">Beachstays</a></li>
-        <ul class="mainMenu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </div><!-- nav .wrapper ends -->
-    </nav> <!-- .navBar end -->
+    <div class="blogHeaderImg">
 
-    <div class="wrapper">
-      <h2>Blog</h2>
-    </div><!--wrapper ends-->
+      <nav class="navBar">
+        <!-- NAV start -->
+        <div class="wrapper">
+          <!-- nav .wrapper starts -->
+          <a href="./index.html" class="logo">Beachstays</a></li>
+          <ul class="mainMenu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div><!-- nav .wrapper ends -->
+      </nav> <!-- .navBar end -->
+      
+      <div class="wrapper">
+        <h2>Blog</h2>
+      </div><!--wrapper ends-->
+    </div>
   </header> <!-- HEADER end -->
 
   <main>
@@ -84,9 +87,9 @@
           </div>
             <div class="formContainer">
               <fieldset>
-                <input id="name" type="text" placeholder="Name" class="name"> <input id="email" type="text"
-                  placeholder="Email address" class="email">
-                <input id="message" type="text" placeholder="Message" class="message">
+                <input id="name" type="text" placeholder="Name" class="name" required> <input id="email" type="text"
+                  placeholder="Email address" class="email" required>
+                <input id="message" type="text" placeholder="Message" class="message" required>
                 <button class="submit">Post Comment</button>
               </fieldset>
             </div>

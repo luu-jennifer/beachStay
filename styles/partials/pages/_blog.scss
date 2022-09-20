@@ -1,1 +1,8 @@
 @use "../utilities/variables" as *;
+
+.blogHeaderImg {
+  background-image: url("../assets/blog-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}

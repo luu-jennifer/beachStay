@@ -1,7 +1,9 @@
 @use "../utilities/variables" as *;
 
-header {
+.contactHeaderImg {
   background-image: url("../assets/contact-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
 }
 
