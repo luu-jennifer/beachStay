@@ -14,7 +14,7 @@ fieldset {
   .email,
   .message {
     border: none;
-    border: 2px $primary solid;
+    border-bottom: 2px $primary solid;
     font-size: 1rem;
     line-height: 1.6rem;
     letter-spacing: 0.1rem;

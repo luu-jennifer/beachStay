@@ -392,7 +392,7 @@ fieldset .name,
 fieldset .email,
 fieldset .message {
   border: none;
-  border: 2px #50E3C2 solid;
+  border-bottom: 2px #50E3C2 solid;
   font-size: 1rem;
   line-height: 1.6rem;
   letter-spacing: 0.1rem;
@@ -708,7 +708,7 @@ footer {
   }
   a.button,
 p {
-    font-size: 1.95vh;
+    font-size: 2vh;
     line-height: 2vh;
     padding: 10px;
   }
@@ -721,7 +721,7 @@ h6 {
 }
 @media (max-width: 600px) {
   .mainMenu a {
-    font-size: 1.5vh;
+    font-size: 1vh;
     padding: 5px;
   }
   .headerContent,
@@ -729,11 +729,11 @@ h6 {
     margin: 0 30px;
   }
   h1 {
-    font-size: 4vh;
+    font-size: 2rem;
   }
   h3,
 h6 {
-    font-size: 1.59vh;
+    font-size: 1.5vh;
   }
   .guyana .flexContainer,
 .iconsDetails .flexContainer {

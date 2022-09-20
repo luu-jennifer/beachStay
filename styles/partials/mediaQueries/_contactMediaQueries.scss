@@ -1,116 +1,60 @@
-@use "../utilities/variables" as *;
+// @use "../utilities/variables" as *;
 
 
 // @media (max-width: 1200px) {
-//   h1 {
-//     font-size: 4rem;
-//     line-height: .6rem;
-//   }
+
 // }
 
 
 // @media (max-width: 992px) {
-//   h1 {
-//     font-size: 3.56rem;
-//   }
-
-//   h3 {
-//     font-size: 2.1rem;
-//     line-height: .9rem;
-//   }
-
-//   .guyana {
-//     padding-bottom: 60px;
-//   }
-
-//   .beachstayGallery li {
-//     padding: 10px;
-//   }
 
 // }
 
 
 // @media (max-width: 768px) {
-//   .navBar .wrapper {
-//     flex-direction: column;
-
-//     .mainMenu {
-//       justify-content: center;
-//       padding-top: 20px;
-//     }
-//   }
-
-//   h1 {
-//     font-size: 2.56rem;
-//     line-height: .6rem;
-//   }
-
-//   a.button,
-//   p {
-//     font-size: 1.95vh;
-//     line-height: 2vh;
-//     padding: 10px;
-//   }
-
-//   h4,
-//   h5,
-//   h6 {
-//     font-size: 2vh;
-//     line-height: 2vh;
-//   }
 
 // }
 
 
 // @media (max-width: 600px) {
-//   .mainMenu {
-//     a {
-//       font-size: 1.5vh;
-//       padding: 5px;
-//     }
-//   }
+//   // h2 {
+//   //   font-size: 18vw;
+//   //   letter-spacing: 0rem;
+//   // }
 
-//   .headerContent,
-//   .headerImgContainer {
-//     margin: 0 30px;
-//   }
-
-//   h1 {
-//     font-size: 4vh;
-//   }
-
-//   h3,
-//   h6 {
-//     font-size: 1.59vh;
-//   }
-
-//   .guyana .flexContainer,
-//   .iconsDetails .flexContainer {
-//     flex-direction: column-reverse;
-//     text-align: center;
-//     align-items: center;
-//   }
-
-//   .beachstayGallery,
-//   .iconsDetails .flexContainer {
+//   .contact {
+//     .flexContainer {
 //     flex-direction: column;
-//   }
-
-//   .iconsDetails .flexContainer {
 //     width: 100vw;
-//   }
-
-//   .plan .flexContainer div {
-//     width: 100%;
-//     margin: 0;
-//   }
-
-//   .plan .imgContainer {
-
-//     .rightImg,
-//     .leftImg {
-//       margin: 20px auto;
+//     }
+//     .formContainer {
 //       position: inherit;
+//       margin: 0 auto;
+//     }
+//     .contactDetails {
+//       width: 80vw;
+//       margin: 0 auto;
 //     }
 //   }
+
+//   fieldset {
+//     padding: 0;
+//     width: 100vw;
+//     box-shadow: none;
+//     border: none;
+//     background-color: $secondary;
+//     text-align: center;
+//     .name,
+//     .email,
+//     .message {
+//       font-size: 2vh;
+//       line-height: 0rem;
+//       letter-spacing: 0.1rem;
+//       font-family: $fontLato;
+//       font-weight: 300;
+//       width: 80vw;
+//       margin: 2vh auto;
+//     }
+// }
+
 // }
