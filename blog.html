@@ -38,7 +38,7 @@
     </div>
   </header> <!-- HEADER end -->
 
-  <main>
+  <div>
   <!-- MAIN starts -->
     <div class="flexContainer wrapper">
       <section class="blog">
@@ -77,30 +77,42 @@
         </aside>
     </div> <!--flexContainer wrapper ends-->
 
-    <div class="comments">
+
       <div class="flexcontainer wrapper">
         <section class="comment">
-          <div class="contentContainer">
-            <h5>Comments:</h5>
-            <ul>
-              <li><img src="./assets/comment-image.jpg" alt="male in blazer and grey crew neck shirt">
-              <h6>Tuesday October 9th, 2019 by Reyansh</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem hic similique ipsum et culpa a adipisci voluptatem amet ex animi nobis explicabo deserunt voluptas eos, perspiciatis quod labore repellendus porro blanditiis ullam dolorum? Eius iusto consectetur consequuntur provident quam.</p></li>
-            </ul>
-            <ul><li>
-              <img src="./assets/comment-image2.jpg" alt="female with wearing pink sunglasses with green leafy background">
-              <h6>Wednesday October 10th, 2019 by Olivia</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta labore ratione, enim, beatae blanditiis praesentium illo facilis aliquam, distinctio nam aperiam eius. Eveniet sint error veniam! Libero, nemo maiores?</p></li>
-            </ul>
-          </div>
-            <div class="formContainer">
-              <fieldset>
-                <input id="name" type="text" placeholder="Name" class="name" required> <input id="email" type="text"
+          <h5>Comments:</h5>
+          <ul>
+            <li>
+              <div class="img">
+                <img src="./assets/comment-image.jpg" alt="male in blazer and grey crew neck shirt">
+              </div>
+              <div class="words">
+                <h6>Tuesday October 9th, 2019 by Reyansh</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem hic similique ipsum et culpa a adipisci voluptatem amet ex animi nobis explicabo deserunt voluptas eos, perspiciatis quod labore repellendus porro blanditiis ullam dolorum? Eius iusto consectetur consequuntur provident quam.</p>
+                </div>
+              </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="img">
+                    <img src="./assets/comment-image2.jpg" alt="male in blazer and grey crew neck shirt">
+                  </div>
+                  <div class="words">
+                    <h6>Tuesday October 9th,2019 by Reyansh</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem hic similique ipsum et culpa a adipisci voluptatem amet ex animi nobis explicabo deserunt voluptas eos, perspiciatis quod labore repellendus porro blanditiis ullam dolorum? Eius iusto consectetur consequuntur provident quam.</p></li>
+                  </div>
+                  </ul>
+                </div>
+
+              <div class="formContainer wrapper">
+                <fieldset>
+                  <input id="name" type="text" placeholder="Name" class="name" required> <input id="email" type="text"
                   placeholder="Email address" class="email" required>
-                <input id="message" type="text" placeholder="Message" class="message" required>
-                <button class="submit">Post Comment</button>
-              </fieldset>
-            </div>
+                  <input id="message" type="text" placeholder="Message" class="message" required>
+                  <button class="submit">Post Comment</button>
+                </fieldset>
+              </div>
+            
             <!--formContainer end-->
         </section>
       </div>

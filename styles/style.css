@@ -409,6 +409,7 @@ fieldset .message {
   width: 50vw;
   margin: 20px;
   padding: 30px 0px 200px 30px;
+  border: 1px #50E3C2 solid;
 }
 
 button.submit {
@@ -683,11 +684,24 @@ header .flexContainer {
   font-weight: 400;
 }
 
+.comment {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+}
 .comment h5 {
   color: #2C2C2C;
 }
 .comment h6 {
   color: #063974;
+  line-height: 0;
+}
+.comment li {
+  display: flex;
+  flex-direction: row;
+}
+.comment li img {
+  padding: 5vw 5vw 0 0;
 }
 
 .formContainer {

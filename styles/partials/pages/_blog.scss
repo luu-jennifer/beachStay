@@ -84,12 +84,19 @@
   }
   h6 {
     color: $tertiary;
+    line-height: 0;
   }
+  width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      display: flex;
+      flex-direction: row;
+      img {
+        padding: 5vw 5vw 0 0;
+      }
+    }
 }
-
-
-
-
 
 .formContainer {
   margin: 10vh auto;
