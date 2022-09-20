@@ -46,8 +46,8 @@
 
   a.button,
   p {
-    font-size: 1vh;
-    line-height: 1vh;
+    font-size: 1.25vh;
+    line-height: 1.25vh;
     padding: 10px;
   }
 
@@ -64,7 +64,7 @@
 @media (max-width: 600px) {
   .mainMenu {
     a {
-      font-size: 1vh;
+      font-size: 1.5vh;
       padding: 5px;
     }
   }
