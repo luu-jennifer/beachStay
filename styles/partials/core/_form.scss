@@ -11,7 +11,7 @@ fieldset {
 
   .name,
   .email {
-    width: 20.8vw;
+    width: 23.5vw;
     margin: 80px 20px 50px 20px;
     padding: 1em;
     border: none;
@@ -19,7 +19,7 @@ fieldset {
   }
 
   .message {
-    width: 90%;
+    width: 50vw;
     margin: 20px;
     padding: 30px 0px 200px 30px;
     border: none;
@@ -40,7 +40,7 @@ button.submit {
   border: 2px solid $tertiary;
   padding: 15px 25px;
   margin: 30px auto;
-  width: 90%;
+  width: 50vw;
   cursor: pointer;
   transition: 0.3s;
 
