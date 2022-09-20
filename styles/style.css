@@ -617,6 +617,38 @@ header .flexContainer {
   width: 100vw;
 }
 
+.blog.contentContainer {
+  padding-bottom: 50px;
+}
+
+.flexContainer .blog {
+  display: flex;
+}
+
+.blog .imgContainer {
+  max-width: 100%;
+}
+.blog .imgContainer img {
+  width: 55vw;
+  position: absolute;
+  margin: -8.25vh 0 0 -10vw;
+}
+.blog .contentContainer {
+  width: 50vw;
+  margin: 75vh 0 30vh 0vw;
+}
+.blog .contentContainer h5 {
+  color: rgb(12, 95, 76);
+  line-height: 1rem;
+}
+.blog .contentContainer h6 {
+  color: #063974;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 0.25rem;
+}
+
 .contactHeaderImg {
   background-image: url("../assets/contact-image-1.jpg");
   background-repeat: no-repeat;
