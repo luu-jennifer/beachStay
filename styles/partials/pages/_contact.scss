@@ -1,14 +1,57 @@
 @use "../utilities/variables" as *;
 
-.socialMedia a {
+header {
+  background-image: url("../assets/contact-image-1.jpg");
+  width: 100vw;
+}
+
+.contact.contentContainer {
+  padding-bottom: 50px;
+}
+
+.contact {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .formContainer {
+    position: absolute;
+    margin: -4vw 0 0 -30vw;
+  }
+  
+  .contactDetails {
+    width: 14vw;
+    margin: 20vh 0 20vh 50vw;
+  }
+}
+  
+
+
+.socialMedia {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  li {
+    // margin: 0px 20px 0 20px;
+    padding: 20px 30px 0 0;
+  }
+  a {
   color: $tertiary;
+
   :hover {
     color: $primary;
   }
+
   :focus {
     color: $primary;
   }
+  }
 }
+
 
 .email a {
   color: $black;

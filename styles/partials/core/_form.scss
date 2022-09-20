@@ -5,8 +5,8 @@
 fieldset {
   padding: 10px;
   width: 50vw;
-  border: 1px black solid;
   box-shadow: 15px 15px $primary;
+  background-color: $secondary;
   text-align: center;
 
   .name,
