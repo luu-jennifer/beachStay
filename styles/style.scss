@@ -2,9 +2,12 @@
 @use "./partials/core/setup";
 @use "./partials/core/typography";
 @use "./partials/core/baseStyles";
+@use "./partials/core/form";
 @use "./partials/layout/nav";
 @use "./partials/layout/header";
 @use "./partials/pages/home";
+@use "./partials/pages/blog";
+@use "./partials/pages/contact";
 @use "./partials/layout/footer";
 @use "./partials/utilities/mediaQueries";
 

@@ -1,1 +1,17 @@
 @use "../utilities/variables" as *;
+
+.socialMedia a {
+  color: $tertiary;
+  :hover {
+    color: $primary;
+  }
+  :focus {
+    color: $primary;
+  }
+}
+
+.email a {
+  color: $black;
+  text-transform: lowercase;
+}
+
