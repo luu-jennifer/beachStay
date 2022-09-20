@@ -758,3 +758,48 @@ h6 {
     position: inherit;
   }
 }
+@media (max-width: 1225px) {
+  .contact .contactDetails {
+    width: 18vw;
+    margin-left: 64vw;
+  }
+}
+@media (max-width: 992px) {
+  .contact .flexContainer {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .contact .formContainer {
+    position: inherit;
+    margin: 0 auto;
+  }
+  .contact .contactDetails {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  fieldset {
+    padding: 0;
+    width: 100vw;
+    box-shadow: none;
+    border: none;
+    background-color: #FAFFFE;
+    text-align: center;
+  }
+  fieldset .name,
+fieldset .email,
+fieldset .message {
+    font-size: 2vh;
+    line-height: 0rem;
+    letter-spacing: 0.1rem;
+    font-family: "Lato", "sans-serif";
+    font-weight: 300;
+    width: 80vw;
+    margin: 2vh auto;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 18vw;
+    letter-spacing: 0rem;
+  }
+}
