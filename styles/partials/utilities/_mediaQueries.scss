@@ -1,11 +1,17 @@
 @use "./variables" as *;
 
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+    line-height: .6rem;
+  }
+}
 
+
+@media (max-width: 992px) {
   h1 {
     font-size: 3.56rem;
-    line-height: .6rem;
   }
 
   h3 {
@@ -25,7 +31,6 @@
 
 
 @media (max-width: 768px) {
-
   .navBar .wrapper {
     flex-direction: column;
     .mainMenu {
@@ -55,8 +60,8 @@
 
 }
 
-@media (max-width: 600px) {
 
+@media (max-width: 600px) {
   .mainMenu {
     a {
       font-size: 1vh;
@@ -94,19 +99,18 @@
     width: 100vw;
   }
 
-.plan .flexContainer div {
-  width: 100%;
-  margin: 0;
-}
-
-.plan .imgContainer {
-  .rightImg,
-  .leftImg {
-    margin: 20px auto;
-    position: inherit;
+  .plan .flexContainer div {
+    width: 100%;
+    margin: 0;
   }
-}
 
+  .plan .imgContainer {
+    .rightImg,
+    .leftImg {
+      margin: 20px auto;
+      position: inherit;
+    }
+  }
 }
 
 
