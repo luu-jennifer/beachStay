@@ -454,6 +454,11 @@ button.submit:focus {
   padding: 0 10px;
 }
 
+nav .icon {
+  color: rgb(252, 252, 252);
+  display: none;
+}
+
 header {
   background: url("../assets/home-image-1.jpg") top center/100vw no-repeat;
   background-color: #FAFFFE;
@@ -704,10 +709,10 @@ header .flexContainer {
   padding: 5vw 5vw 0 0;
 }
 
-.formContainer {
+.formContainer.leaveComment {
   margin: 10vh auto;
 }
-.formContainer fieldset {
+.formContainer.leaveComment fieldset {
   border: none;
   box-shadow: none;
 }
@@ -790,12 +795,17 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  .navBar .wrapper {
-    flex-direction: column;
+  .mainMenu,
+.logo {
+    display: none;
+    visibility: hidden;
   }
-  .navBar .wrapper .mainMenu {
-    justify-content: center;
-    padding-top: 20px;
+  nav .flexContainer {
+    justify-content: flex-end;
+  }
+  nav .icon {
+    display: block;
+    margin-top: 5%;
   }
   h1 {
     font-size: 2.56rem;
@@ -815,10 +825,6 @@ h6 {
   }
 }
 @media (max-width: 600px) {
-  .mainMenu a {
-    font-size: 1vh;
-    padding: 5px;
-  }
   .headerContent,
 .headerImgContainer {
     margin: 0 30px;
