@@ -30,13 +30,28 @@
 
 
 @media (max-width: 768px) {
-  .navBar .wrapper {
-    flex-direction: column;
+  // .navBar .wrapper {
+  //   flex-direction: column;
 
-    .mainMenu {
-      justify-content: center;
-      padding-top: 20px;
+  //   .mainMenu {
+  //     justify-content: center;
+  //     padding-top: 20px;
+  //   }
+  // }
+
+    .mainMenu,
+    .logo {
+      display: none;
+      visibility: hidden;
     }
+  
+    nav .flexContainer {
+      justify-content: flex-end;
+    }
+
+  nav .icon {
+    display: block;
+    margin-top: 5%;
   }
 
   h1 {
@@ -62,12 +77,12 @@
 
 
 @media (max-width: 600px) {
-  .mainMenu {
-    a {
-      font-size: 1vh;
-      padding: 5px;
-    }
-  }
+  // .mainMenu {
+  //   a {
+  //     font-size: 1vh;
+  //     padding: 5px;
+  //   }
+  // }
 
   .headerContent,
   .headerImgContainer {
